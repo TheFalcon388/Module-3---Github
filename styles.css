@@ -1,0 +1,112 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+/* Styling the description section */
+.Description {
+    background-color: #3e6388;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.Description h1 {
+    font-size: 2.5em;
+}
+
+.Description p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Common styles for castle sections */
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Styling for the "Classic" castle section */
+.classic {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.classic img {
+    border: 2px solid #7f8c8d;
+}
+
+/* Styling for the "White" castle section */
+.White {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.White img {
+    border: 2px solid #bdc3c7;
+}
+
+/* Styling for the "Refreshed" castle section */
+.Refresh {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.Refresh img {
+    border: 2px solid #95a5a6;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .Description {
+        padding: 15px;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    .Description h1 {
+        font-size: 2em;
+    }
+    
+    .Description p {
+        font-size: 1em;
+    }
+    
+    h2, h3 {
+        font-size: 1.5em;
+    }
+}
